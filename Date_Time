@@ -1,0 +1,15 @@
+import java.time.LocalDateTime;  
+import java.time.format.DateTimeFormatter;  
+public class Date_Time {
+
+    public static void main(String[] args) {
+        LocalDateTime now=LocalDateTime.now();
+        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd-mm-yyyy hh:mm:ss");
+        String formatted=now.format(formatter);
+        System.out.println("current date and time:"+formatted);
+    }
+}
+
+output:
+
+current date and time:08-39-2025 08:39:52
