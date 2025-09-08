@@ -1,0 +1,26 @@
+
+
+public class Positive {
+public void checknumbers(int num){
+           if(num>0){
+               System.out.println("Positive");
+           }
+           else if(num<0)
+                System.out.println("Negative");
+           else
+                System.out.println("Zero");
+           
+        }
+        
+        public static void main(String[] args) {
+            Positive p=new Positive();
+           p.checknumbers(10);
+            
+      
+    }
+}
+
+
+output:
+
+Positive
